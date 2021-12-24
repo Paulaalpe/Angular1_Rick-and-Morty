@@ -1,0 +1,31 @@
+div{
+    width: 220px;
+    height: 250px; 
+    margin: 20px;
+    padding: 20px;
+    // padding: 10px;
+    // background-color: green;
+    border: 2px solid  greenyellow;
+   
+    h2 {
+        height: 100px;
+    }
+
+    h2,p {
+        text-align: center;
+    }
+
+    span {
+        font-style: italic;
+        font-size: large;
+        }
+
+
+    .img {
+        max-width: 90%;
+        img {
+            width: 100%;
+        }
+    }
+
+}

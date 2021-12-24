@@ -1,0 +1,6 @@
+<h1>Episodes</h1>
+<div>
+    <ng-container *ngFor="let episodeIterator of dataInfo">
+        <app-episode-card [episode]="episodeIterator"></app-episode-card>
+    </ng-container>
+</div>
